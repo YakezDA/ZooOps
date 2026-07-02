@@ -25,3 +25,20 @@ Managers often rely on multiple disconnected systems for scheduling, sales, task
 ## Success Criteria
 
 The MVP is successful if a manager can log in and understand the day’s most important operational information within 30 seconds.
+
+## Initial Data Model
+
+### Employee
+
+- id
+- first_name
+- last_name
+
+### Shift
+
+- id
+- employee_id
+- location
+- in_time
+- out_time
+- called_off

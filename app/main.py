@@ -7,11 +7,6 @@ jill = Employee("Jill", "Doe", 25, 1235, "Assistant Manager")
 employees.append(jake)
 employees.append(jill)
 
-print("Employees:")
-
-for employee in employees:
-    print(employee.full_name())
-
 
 # search employee by id
 def search_employee_by_id(employee_id):
@@ -66,3 +61,21 @@ def display_menu():
 
 
 display_menu()
+
+choice = input("Choose an option: ")
+if choice == "1":
+    clock_in_employee
+elif choice == "2":
+    clock_out_employee
+elif choice == "3":
+    call_off_employee
+elif choice == "4":
+    print("Employee List:")
+
+    print(employees.full_name())
+
+elif choice == "5":
+    print("Exiting Zoo Ops")
+
+else:
+    print("Invalid Input")

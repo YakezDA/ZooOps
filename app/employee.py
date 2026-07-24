@@ -1,3 +1,4 @@
+
 class Employee:
     def __init__(self, first_name, last_name, age, employee_id, position):
         self.first_name = first_name
@@ -34,5 +35,5 @@ class Employee:
             print(f"{self.full_name()} has called off.")
             return
 
-        self.has_called_out = False
-        print(f"{self.full_name()} has not called out")
+        self.has_called_out = True
+        print(f"{self.full_name()} has already called off.")
